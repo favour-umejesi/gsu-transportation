@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tiger Transit · Grambling State University Office of Student Transportation</title>
+  <meta name="description" content="Tiger Transit: the free shuttle service of the Grambling State University Office of Student Transportation. Routes, airport pickup, and ride requests for the GSU community." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top">
+        <img class="brand__logo" src="images/grambling-logo.png" alt="Grambling State University" />
+        <span class="brand__divider"></span>
+        <span class="brand__name">TIGER TRANSIT</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#top">Tiger Transit</a>
+        <a href="#shuttle">Shuttle Schedule</a>
+        <a href="#destinations">Destinations</a>
+        <a href="who-we-are.html">Who We Are</a>
+        <a href="#team">Our Team</a>
+        <a href="#footer">Contact</a>
+      </nav>
+      <a class="btn btn--gold header__cta" href="#connect">Request a Ride</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero__left">
+      <p class="eyebrow eyebrow--gold">Office of Student Transportation</p>
+      <h1 class="hero__title">Tiger Transit</h1>
+      <span class="rule"></span>
+      <p class="hero__intro">The free shuttle service of the Grambling State University Office of Transportation, for the exclusive use of the GSU community. Be ready to show a valid GSU student ID when boarding.</p>
+      <div class="chips">
+        <span class="chip">Free to ride</span>
+        <span class="chip">GSU ID required</span>
+        <span class="chip">For the GSU community</span>
+      </div>
+      <div class="hero__buttons">
+        <a class="btn btn--gold" href="#connect">Request a Ride</a>
+        <a class="btn btn--outline" href="#shuttle">View Shuttle Schedule</a>
+      </div>
+    </div>
+    <div class="hero__image" role="img" aria-label="Eddie the Tiger statue on the Grambling State University campus">
+      <span class="hero__accent"></span>
+    </div>
+  </section>
+
+  <!-- ============ STUDENT SHUTTLE ============ -->
+  <section class="section section--cream split" id="shuttle">
+    <div class="split__col">
+      <p class="eyebrow">Student Shuttle</p>
+      <h2 class="h2">Free rides for the GSU community</h2>
+      <p class="lead">Free shuttle service for Grambling State students, with routes to Walmart, local banks, the Ruston DMV and Ruston Marketplace, plus airport pickups and transportation for campus departments and organizations.</p>
+      <div class="note">
+        <i data-lucide="badge-check"></i>
+        <span>Be prepared to show the operator a valid GSU student ID when boarding.</span>
+      </div>
+    </div>
+    <div class="split__aside">
+      <div class="placeholder-card">
+        <i data-lucide="calendar-clock"></i>
+        <h3>Schedule coming soon</h3>
+        <p>Departure times will be posted here once the dates are confirmed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ AIRPORT PICKUP ============ -->
+  <section class="section section--dark" id="airport">
+    <header class="section__head">
+      <p class="eyebrow eyebrow--gold">Airport &amp; Break Travel</p>
+      <h2 class="h2 h2--light">Getting to and from campus</h2>
+      <p class="lead lead--light">Airport shuttle service for the start and end of each term. Reserve your seat before the form closes; space is limited.</p>
+    </header>
+    <div class="grid grid--2">
+      <article class="airport-card">
+        <div class="airport-card__top">
+          <h3>Fall 2026 Return to Campus</h3>
+          <span class="tag">Booking open</span>
+        </div>
+        <p class="muted">Airport shuttle to campus for the start of the Fall 2026 semester.</p>
+        <div class="airport-list">
+          <div class="airport-row">
+            <div>
+              <p class="airport-row__name">Travel window</p>
+              <p class="airport-row__sub">August 7 to 12, 2026</p>
+            </div>
+            <i data-lucide="plane-landing"></i>
+          </div>
+          <div class="airport-row">
+            <div>
+              <p class="airport-row__name">Form closes</p>
+              <p class="airport-row__sub">July 24, 2026</p>
+            </div>
+            <i data-lucide="calendar-clock"></i>
+          </div>
+        </div>
+        <a class="btn btn--gold airport-card__cta" href="https://forms.office.com/Pages/ResponsePage.aspx?id=v1n43rBNZEGywZ2gVqTvuHHFA_h9KaRJtakm6cWfeHNUMVQ1QldKNU9FWjdOMlc0STVIM0hUNkJUOC4u" target="_blank" rel="noopener">Reserve your seat</a>
+      </article>
+      <article class="airport-card">
+        <div class="airport-card__top">
+          <h3>Winter Break Departure</h3>
+          <span class="tag">Booking open</span>
+        </div>
+        <p class="muted">Airport shuttle home for Winter break travel.</p>
+        <div class="airport-list">
+          <div class="airport-row">
+            <div>
+              <p class="airport-row__name">Travel window</p>
+              <p class="airport-row__sub">November 18 to 23, 2026</p>
+            </div>
+            <i data-lucide="plane-takeoff"></i>
+          </div>
+          <div class="airport-row">
+            <div>
+              <p class="airport-row__name">Form closes</p>
+              <p class="airport-row__sub">November 11, 2026</p>
+            </div>
+            <i data-lucide="calendar-clock"></i>
+          </div>
+        </div>
+        <a class="btn btn--gold airport-card__cta" href="https://forms.office.com/Pages/ResponsePage.aspx?id=v1n43rBNZEGywZ2gVqTvuFchmisaHBdHpZngiROy_NpUMjMzUTBWVkw4WlkwR1NISk4ySkZTSlYySC4u" target="_blank" rel="noopener">Reserve your seat</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ DESTINATIONS ============ -->
+  <section class="section section--cream" id="destinations">
+    <header class="section__head section__head--row">
+      <div>
+        <p class="eyebrow">Where We Go</p>
+        <h2 class="h2">Destinations on every route</h2>
+      </div>
+    </header>
+    <div class="grid grid--4">
+      <article class="dest-card">
+        <div class="dest-card__thumb"><i data-lucide="shopping-cart"></i></div>
+        <div class="dest-card__body">
+          <h3>Walmart</h3>
+          <p class="muted">Groceries, essentials &amp; everyday errands</p>
+        </div>
+      </article>
+      <article class="dest-card">
+        <div class="dest-card__thumb"><i data-lucide="landmark"></i></div>
+        <div class="dest-card__body">
+          <h3>Local Banks</h3>
+          <p class="muted">Banking &amp; financial errands</p>
+        </div>
+      </article>
+      <article class="dest-card">
+        <div class="dest-card__thumb"><i data-lucide="car-front"></i></div>
+        <div class="dest-card__body">
+          <h3>DMV (Ruston)</h3>
+          <p class="muted">Driver's license &amp; vehicle services in Ruston</p>
+        </div>
+      </article>
+      <article class="dest-card">
+        <div class="dest-card__thumb"><i data-lucide="shopping-bag"></i></div>
+        <div class="dest-card__body">
+          <h3>Ruston Marketplace</h3>
+          <p class="muted">Ulta, 5 Below, T.J. Maxx, Hobby Lobby &amp; more in Ruston</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ STAY CONNECTED ============ -->
+  <section class="section section--white" id="connect">
+    <div class="insta-band">
+      <div class="insta-band__left">
+        <div class="insta-band__mark"><svg class="ig-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div>
+        <div>
+          <h3 class="insta-band__title">Stay Connected</h3>
+          <p>Follow on Instagram for real time updates, schedule changes, and service announcements.</p>
+        </div>
+      </div>
+      <a class="insta-band__handle" href="https://instagram.com/gsutigertransiit" target="_blank" rel="noopener">@gsutigertransiit</a>
+    </div>
+    <div class="grid grid--4">
+      <article class="service-card">
+        <div class="service-card__icon"><i data-lucide="ticket"></i></div>
+        <h3>Request a Ride</h3>
+        <p class="muted">Reserve a seat on the weekly local shuttle to Walmart, the library, the DMV, and the bank.</p>
+        <a class="link" href="https://forms.office.com/Pages/ResponsePage.aspx?id=v1n43rBNZEGywZ2gVqTvuHHFA_h9KaRJtakm6cWfeHNUQk9WUjhMWkRNNUVWNDVPUFA3SUNNOFVWRC4u" target="_blank" rel="noopener">Open request form <i data-lucide="arrow-right"></i></a>
+      </article>
+      <article class="service-card">
+        <div class="service-card__icon"><i data-lucide="stethoscope"></i></div>
+        <h3>Special Requests</h3>
+        <p class="muted">Rides for medical appointments and visits to the DMV and Social Security office.</p>
+        <a class="link" href="https://www.gram.edu/student-life/services/transportation/docs/Transportation%20Request%20Form.pdf" target="_blank" rel="noopener">Open request form <i data-lucide="arrow-right"></i></a>
+      </article>
+      <article class="service-card">
+        <div class="service-card__icon"><i data-lucide="file-text"></i></div>
+        <h3>Van Request Form</h3>
+        <p class="muted">Departments and organizations can reserve a van for campus and event travel.</p>
+        <a class="link" href="https://www.gram.edu/student-life/services/transportation/docs/Transportation%20Request%20Form.pdf" target="_blank" rel="noopener">Download form (PDF) <i data-lucide="arrow-right"></i></a>
+      </article>
+      <article class="service-card">
+        <div class="service-card__icon"><i data-lucide="phone"></i></div>
+        <h3>Contact Us</h3>
+        <p class="muted">Questions about routes, schedules, or pickups? We're happy to help.</p>
+        <a class="link" href="#footer">Get in touch <i data-lucide="arrow-right"></i></a>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ MEET THE TEAM ============ -->
+  <section class="section section--cream" id="team">
+    <header class="section__head section__head--row">
+      <div>
+        <p class="eyebrow">Meet the Team</p>
+        <h2 class="h2">The people behind Tiger Transit</h2>
+      </div>
+    </header>
+    <div class="grid grid--3">
+      <article class="team-card">
+        <div class="team-card__photo"><img src="images/turner.jpg" alt="Mr. Thomyan Turner" /></div>
+        <div class="team-card__body">
+          <h3>Mr. Thomyan Turner</h3>
+          <p class="role">Coordinator of Student Transportation</p>
+          <div class="team-card__contacts">
+            <p><i data-lucide="phone"></i> (318) 274-2079</p>
+            <p><i data-lucide="mail"></i> turnerth@gram.edu</p>
+          </div>
+        </div>
+      </article>
+      <article class="team-card">
+        <div class="team-card__photo"><img src="images/davis.jpg" alt="Mr. Rene Davis" /></div>
+        <div class="team-card__body">
+          <h3>Mr. Rene Davis</h3>
+          <p class="role">Driver</p>
+        </div>
+      </article>
+      <article class="team-card">
+        <div class="team-card__photo"><img src="images/moss.jpg" alt="Mr. Larry Moss" /></div>
+        <div class="team-card__body">
+          <h3>Mr. Larry Moss</h3>
+          <p class="role">Driver</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <img class="footer__logo" src="images/grambling-oval-g.png" alt="Grambling State University" />
+        <p class="footer__office">Office of Student Transportation</p>
+        <p class="footer__addr">Grambling State University<br />403 Main Street, Grambling, LA 71245</p>
+        <a class="footer__ig" href="https://instagram.com/gsutigertransiit" target="_blank" rel="noopener"><svg class="ig-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg> @gsutigertransiit</a>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#shuttle">Daily Services</a></li>
+          <li><a href="#airport">Airport &amp; Break Travel</a></li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#team">Meet the Team</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Forms &amp; Info</h4>
+        <ul>
+          <li><a href="#team">Meet the Team</a></li>
+          <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v1n43rBNZEGywZ2gVqTvuHHFA_h9KaRJtakm6cWfeHNUQk9WUjhMWkRNNUVWNDVPUFA3SUNNOFVWRC4u" target="_blank" rel="noopener">Request a Ride</a></li>
+          <li><a href="https://www.gram.edu/student-life/services/transportation/docs/Transportation%20Request%20Form.pdf" target="_blank" rel="noopener">Special Requests</a></li>
+          <li><a href="https://www.gram.edu/student-life/services/transportation/docs/Transportation%20Request%20Form.pdf" target="_blank" rel="noopener">Van Request Form</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <ul class="footer__contact">
+          <li><i data-lucide="user"></i><span><em>Coordinator</em>Mr. Thomyan Turner</span></li>
+          <li><i data-lucide="phone"></i><span><em>Office</em>(318) 274-2325</span></li>
+          <li><i data-lucide="phone-call"></i><span><em>Direct</em>(318) 274-2079</span></li>
+          <li><i data-lucide="mail"></i><span><em>Email</em>studenttransportation@gram.edu</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__divider"></div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Grambling State University · Office of Student Transportation</p>
+      <nav class="footer__links">
+        <a href="#">Live View</a>
+        <a href="#">Routes &amp; Schedules</a>
+        <a href="#team">Meet the Team</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('nav--open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      nav.classList.remove('nav--open');
+      toggle.setAttribute('aria-expanded', false);
+    }));
+  </script>
+</body>
+</html>
