@@ -7,8 +7,7 @@
   --gold-soft:#EFCC67;     /* brand tertiary */
   --gold-pale:#FAECC8;     /* brand tertiary — pale wash */
   --white:#F7F7F7;         /* brand tertiary — lightest neutral (site "white") */
-  --cream:#EDEBDE;         /* brand tertiary — warm section background */
-  --warm:#EDEBDE;          /* brand tertiary — warm off-white */
+  --cream:#F7F7F7;         /* section background — white */
   --card:#F3F3F3;          /* brand tertiary — neutral card fill */
   --gray:#545454;          /* brand tertiary — gray */
   --gray-light:#D9D9D9;    /* brand tertiary — light gray */
@@ -60,9 +59,11 @@ ul{list-style:none}
 .header{background:var(--black);position:sticky;top:0;z-index:50}
 .header__inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:16px;padding-bottom:16px}
 .brand{display:flex;align-items:center;gap:14px}
+.brand__logo-link{display:inline-flex;align-items:center}
 .brand__logo{height:38px;width:auto}
 .brand__divider{width:1px;height:28px;background:rgba(247,247,247,.2)}
-.brand__name{font-family:var(--font-display);font-weight:500;font-size:19px;letter-spacing:2px;color:var(--white)}
+.brand__name{font-family:var(--font-display);font-weight:500;font-size:19px;letter-spacing:2px;color:var(--white);transition:color .15s}
+.brand__name:hover{color:var(--gold)}
 .nav{display:flex;align-items:center;gap:30px}
 .nav a{font-weight:500;font-size:14px;color:var(--white);transition:color .15s}
 .nav a:hover{color:var(--gold)}
@@ -75,7 +76,6 @@ ul{list-style:none}
 .hero__inner{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;align-items:stretch;min-height:620px}
 .hero__left{display:flex;flex-direction:column;justify-content:center;gap:26px;padding:88px 48px}
 .hero__title{font-family:var(--font-display);font-weight:700;font-size:82px;line-height:.95;color:var(--white)}
-.rule{width:72px;height:5px;background:var(--gold)}
 .hero__intro{max-width:520px;font-size:17px;line-height:1.55;color:var(--gray-light)}
 .chips{display:flex;flex-wrap:wrap;gap:10px}
 .chip{display:inline-flex;align-items:center;padding:8px 14px;border:1px solid var(--gold);color:var(--gold);font-weight:500;font-size:13px}
@@ -84,7 +84,7 @@ ul{list-style:none}
 .hero__accent{width:100%;height:8px;background:var(--gold)}
 
 /* ============ SECTIONS ============ */
-.section{padding:88px var(--pad);max-width:var(--maxw);margin:0 auto}
+.section{padding:88px var(--pad);max-width:var(--maxw);margin:0 auto;scroll-margin-top:88px}
 .section--cream{background:var(--cream)}
 .section--white{background:var(--white)}
 .section--dark{background:var(--black)}
@@ -100,9 +100,9 @@ ul{list-style:none}
 .split{display:grid;grid-template-columns:1fr 480px;gap:56px;align-items:start;max-width:none;padding-left:max(var(--pad),calc((100vw - var(--maxw))/2 + var(--pad)));padding-right:max(var(--pad),calc((100vw - var(--maxw))/2 + var(--pad)))}
 .split__col{display:flex;flex-direction:column;gap:22px}
 .split__col .h2{margin-top:0}
-.note{display:flex;gap:12px;align-items:center;padding:16px 18px;background:var(--white);border:1px solid var(--line);font-weight:500;font-size:14px;color:var(--ink);max-width:440px}
+.note{display:flex;gap:12px;align-items:center;padding:16px 18px;background:var(--card);border:1px solid var(--line);font-weight:500;font-size:14px;color:var(--ink);max-width:440px}
 .note i{color:var(--gold);width:22px;height:22px;flex:none}
-.schedule-note{background:var(--white);border:1px solid var(--line);padding:34px 32px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}
+.schedule-note{background:var(--card);border:1px solid var(--line);padding:34px 32px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}
 .schedule-note__icon{display:inline-flex;color:var(--gold);margin-bottom:2px}
 .schedule-note__icon svg{width:36px;height:36px}
 .schedule-note .eyebrow{margin-bottom:0}
@@ -115,16 +115,18 @@ ul{list-style:none}
 .grid--3{grid-template-columns:repeat(3,1fr)}
 .grid--4{grid-template-columns:repeat(4,1fr)}
 
-/* ============ AIRPORT CARDS ============ */
-.airport-card{display:flex;flex-direction:column;align-items:flex-start;gap:14px;padding:36px 34px;background:rgba(247,247,247,.04);border:1px solid rgba(247,247,247,.14);border-top:3px solid var(--gold)}
-.airport-card__status{font-family:var(--font-display);font-weight:600;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold)}
-.airport-card__name{font-family:var(--font-display);font-weight:600;font-size:28px;line-height:1.12;color:var(--white)}
-.airport-card__desc{font-size:15px;line-height:1.6;color:var(--gray-light)}
-.airport-facts{width:100%;margin:10px 0 2px}
-.airport-fact{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:15px 0;border-top:1px solid rgba(247,247,247,.14)}
-.airport-fact dt{font-family:var(--font-display);font-weight:600;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold)}
-.airport-fact dd{font-size:16px;font-weight:500;color:var(--white);text-align:right}
-.airport-card__cta{margin-top:auto}
+/* ============ AIRPORT SCHEDULE (table) ============ */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.sched{width:100%;border-collapse:collapse}
+.sched thead th{text-align:left;font-family:var(--font-display);font-weight:600;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);padding:0 28px 16px 0;border-bottom:1px solid rgba(247,247,247,.22)}
+.sched tbody td{padding:26px 28px 26px 0;border-bottom:1px solid rgba(247,247,247,.14);vertical-align:middle;color:var(--white);font-size:17px;font-weight:500}
+.sched th:last-child,.sched td:last-child{padding-right:0;text-align:right}
+.sched tbody tr{transition:background .25s var(--ease)}
+.sched tbody tr:hover{background:rgba(247,247,247,.04)}
+.sched__trip{display:block;font-family:var(--font-display);font-weight:600;font-size:22px;line-height:1.1;color:var(--white)}
+.sched__sub{display:block;margin-top:5px;font-size:14px;font-weight:400;color:var(--gray-light)}
+.sched__action{white-space:nowrap}
+.sched__note{margin-top:24px;font-size:14px;line-height:1.6;color:var(--gray-light)}
 
 /* ============ DESTINATIONS (clean items + icon, no top rule) ============ */
 .dest__icon{display:inline-flex;color:var(--gold);margin-bottom:12px}
@@ -158,7 +160,7 @@ ul{list-style:none}
 
 /* ============ TEAM CARDS ============ */
 .team-grid{display:grid;grid-template-columns:repeat(2,minmax(0,420px));gap:28px;justify-content:start}
-.team-card{background:var(--white);border:1px solid var(--line);overflow:hidden;display:flex;flex-direction:column}
+.team-card{background:var(--card);border:1px solid var(--line);overflow:hidden;display:flex;flex-direction:column}
 .team-card__photo{aspect-ratio:4/5;background:var(--ink)}
 .team-card__photo img{width:100%;height:100%;object-fit:cover;object-position:center top}
 .team-card__body{padding:26px;display:flex;flex-direction:column;gap:14px}
@@ -313,15 +315,24 @@ ul{list-style:none}
 }
 @media (max-width:760px){
   .team-grid{grid-template-columns:minmax(0,420px)}
+  /* schedule table -> stacked trip blocks */
+  .sched thead{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+  .sched,.sched tbody,.sched tr,.sched td{display:block;width:100%}
+  .sched tbody tr{padding:22px 0;border-bottom:1px solid rgba(247,247,247,.14)}
+  .sched tbody tr:first-child{border-top:1px solid rgba(247,247,247,.22)}
+  .sched tbody td{padding:5px 0;border:0}
+  .sched th:last-child,.sched td:last-child{text-align:left}
+  .sched td[data-label]::before{content:attr(data-label);display:block;font-family:var(--font-display);font-weight:600;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);margin-bottom:2px}
+  .sched__action{margin-top:14px}
 }
 
 /* ============ MOTION (scroll reveal + tactile hover) ============ */
 /* Hidden state is applied pre-paint via the .js class set in <head>, so there is no flash */
-.js :is(.hero__left,.hero__image,.section__head,.wwa-section-head,.split__col,.schedule-note,.dest,.airport-card,.insta-band,.service-card,.team-card,.wwa-header__text,.wwa-header__media,.wwa-mv__col,.wwa-value,.wwa-goal,.wwa-cta__inner){opacity:0;transform:translateY(22px);transition:opacity .6s var(--ease),transform .45s var(--ease),box-shadow .35s var(--ease),border-color .35s var(--ease)}
+.js :is(.hero__left,.hero__image,.section__head,.wwa-section-head,.split__col,.schedule-note,.dest,.sched,.insta-band,.service-card,.team-card,.wwa-header__text,.wwa-header__media,.wwa-mv__col,.wwa-value,.wwa-goal,.wwa-cta__inner){opacity:0;transform:translateY(22px);transition:opacity .6s var(--ease),transform .45s var(--ease),box-shadow .35s var(--ease),border-color .35s var(--ease)}
 .js .is-visible{opacity:1;transform:none}
 
 /* No-JS fallback transition for hovers (the reveal rule supplies it when .js is on) */
-.dest,.service-card,.team-card,.airport-card{transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s var(--ease)}
+.dest,.service-card,.team-card{transition:transform .35s var(--ease),box-shadow .35s var(--ease),border-color .35s var(--ease)}
 .dest__icon{transition:transform .35s var(--ease-out)}
 
 /* Grounded hover feedback */
@@ -329,10 +340,9 @@ ul{list-style:none}
 .dest:hover .dest__icon{transform:translateY(-3px)}
 .service-card:hover{transform:translateY(-4px);box-shadow:0 18px 38px -24px rgba(25,25,25,.4);border-color:var(--gold-soft)}
 .team-card:hover{transform:translateY(-4px);box-shadow:0 22px 42px -26px rgba(25,25,25,.4)}
-.airport-card:hover{transform:translateY(-4px);border-color:rgba(234,170,0,.4);background:rgba(247,247,247,.06)}
 
 @media (prefers-reduced-motion:reduce){
-  .js :is(.hero__left,.hero__image,.section__head,.wwa-section-head,.split__col,.schedule-note,.dest,.airport-card,.insta-band,.service-card,.team-card,.wwa-header__text,.wwa-header__media,.wwa-mv__col,.wwa-value,.wwa-goal,.wwa-cta__inner){opacity:1;transform:none;transition:none}
-  .dest,.dest__icon,.service-card,.team-card,.airport-card{transition:none}
-  .dest:hover,.dest:hover .dest__icon,.service-card:hover,.team-card:hover,.airport-card:hover{transform:none}
+  .js :is(.hero__left,.hero__image,.section__head,.wwa-section-head,.split__col,.schedule-note,.dest,.sched,.insta-band,.service-card,.team-card,.wwa-header__text,.wwa-header__media,.wwa-mv__col,.wwa-value,.wwa-goal,.wwa-cta__inner){opacity:1;transform:none;transition:none}
+  .dest,.dest__icon,.service-card,.team-card,.sched tbody tr{transition:none}
+  .dest:hover,.dest:hover .dest__icon,.service-card:hover,.team-card:hover{transform:none}
 }

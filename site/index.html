@@ -16,11 +16,13 @@
   <!-- ============ HEADER ============ -->
   <header class="header">
     <div class="container header__inner">
-      <a class="brand" href="#top">
-        <img class="brand__logo" src="images/grambling-logo.png" alt="Grambling State University" />
+      <div class="brand">
+        <a class="brand__logo-link" href="https://www.gram.edu" target="_blank" rel="noopener" aria-label="Grambling State University home">
+          <img class="brand__logo" src="images/grambling-logo.png" alt="Grambling State University" />
+        </a>
         <span class="brand__divider"></span>
-        <span class="brand__name">TIGER TRANSIT</span>
-      </a>
+        <a class="brand__name" href="#top">TIGER TRANSIT</a>
+      </div>
       <nav class="nav" aria-label="Primary">
         <a href="#top">Tiger Transit</a>
         <a href="#shuttle">Shuttle Schedule</a>
@@ -42,7 +44,6 @@
     <div class="hero__left">
       <p class="eyebrow eyebrow--gold">Office of Student Transportation</p>
       <h1 class="hero__title">Tiger Transit</h1>
-      <span class="rule"></span>
       <p class="hero__intro">A free shuttle service provided exclusively for Grambling State University students. Be ready to show a valid GSU student ID when boarding.</p>
       <div class="hero__buttons">
         <a class="btn btn--gold" href="#connect">Request a Ride</a>
@@ -112,31 +113,40 @@
   <section class="section section--dark" id="airport">
     <header class="section__head">
       <p class="eyebrow eyebrow--gold">Airport &amp; Break Travel</p>
-      <h2 class="h2 h2--light">Getting to and from campus</h2>
-      <p class="lead lead--light">Airport shuttle service for the start and end of each term. Reserve your seat before the form closes; space is limited.</p>
+      <h2 class="h2 h2--light">Airport shuttle schedule</h2>
+      <p class="lead lead--light">Free airport transportation for Grambling State students at the start and end of each term. Seats are limited, so reserve before the deadline for each trip.</p>
     </header>
-    <div class="grid grid--2">
-      <article class="airport-card">
-        <span class="airport-card__status">Booking open</span>
-        <h3 class="airport-card__name">Fall 2026 Return to Campus</h3>
-        <p class="airport-card__desc">Airport shuttle to campus for the start of the Fall 2026 semester.</p>
-        <dl class="airport-facts">
-          <div class="airport-fact"><dt>Travel window</dt><dd>August 7 to 12, 2026</dd></div>
-          <div class="airport-fact"><dt>Reservation deadline</dt><dd>July 24, 2026</dd></div>
-        </dl>
-        <a class="btn btn--gold airport-card__cta" href="https://forms.office.com/Pages/ResponsePage.aspx?id=v1n43rBNZEGywZ2gVqTvuHHFA_h9KaRJtakm6cWfeHNUMVQ1QldKNU9FWjdOMlc0STVIM0hUNkJUOC4u" target="_blank" rel="noopener">Reserve your seat</a>
-      </article>
-      <article class="airport-card">
-        <span class="airport-card__status">Booking open</span>
-        <h3 class="airport-card__name">Winter Break Departure</h3>
-        <p class="airport-card__desc">Airport shuttle home for Winter break travel.</p>
-        <dl class="airport-facts">
-          <div class="airport-fact"><dt>Travel window</dt><dd>November 18 to 23, 2026</dd></div>
-          <div class="airport-fact"><dt>Reservation deadline</dt><dd>November 11, 2026</dd></div>
-        </dl>
-        <a class="btn btn--gold airport-card__cta" href="https://forms.office.com/Pages/ResponsePage.aspx?id=v1n43rBNZEGywZ2gVqTvuFchmisaHBdHpZngiROy_NpUMjMzUTBWVkw4WlkwR1NISk4ySkZTSlYySC4u" target="_blank" rel="noopener">Reserve your seat</a>
-      </article>
-    </div>
+    <table class="sched">
+      <thead>
+        <tr>
+          <th scope="col">Trip</th>
+          <th scope="col">Travel window</th>
+          <th scope="col">Reserve by</th>
+          <th scope="col"><span class="sr-only">Reservation</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <span class="sched__trip">Fall 2026 Return to Campus</span>
+            <span class="sched__sub">Shuttle to campus for the start of the semester</span>
+          </td>
+          <td data-label="Travel window">August 7 to 12, 2026</td>
+          <td data-label="Reserve by">July 24, 2026</td>
+          <td class="sched__action"><a class="btn btn--gold" href="https://forms.office.com/Pages/ResponsePage.aspx?id=v1n43rBNZEGywZ2gVqTvuHHFA_h9KaRJtakm6cWfeHNUMVQ1QldKNU9FWjdOMlc0STVIM0hUNkJUOC4u" target="_blank" rel="noopener">Reserve a seat</a></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="sched__trip">Winter Break Departure</span>
+            <span class="sched__sub">Shuttle home for Winter break travel</span>
+          </td>
+          <td data-label="Travel window">November 18 to 23, 2026</td>
+          <td data-label="Reserve by">November 11, 2026</td>
+          <td class="sched__action"><a class="btn btn--gold" href="https://forms.office.com/Pages/ResponsePage.aspx?id=v1n43rBNZEGywZ2gVqTvuFchmisaHBdHpZngiROy_NpUMjMzUTBWVkw4WlkwR1NISk4ySkZTSlYySC4u" target="_blank" rel="noopener">Reserve a seat</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="sched__note">Open to enrolled GSU students with a valid student ID. Seats fill quickly, so reserve as early as possible.</p>
   </section>
 
   <!-- ============ STAY CONNECTED ============ -->
@@ -252,7 +262,7 @@
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>
     (function(){
-      var SEL='.hero__left,.hero__image,.section__head,.wwa-section-head,.split__col,.schedule-note,.dest,.airport-card,.insta-band,.service-card,.team-card,.wwa-header__text,.wwa-header__media,.wwa-mv__col,.wwa-value,.wwa-goal,.wwa-cta__inner';
+      var SEL='.hero__left,.hero__image,.section__head,.wwa-section-head,.split__col,.schedule-note,.dest,.sched,.insta-band,.service-card,.team-card,.wwa-header__text,.wwa-header__media,.wwa-mv__col,.wwa-value,.wwa-goal,.wwa-cta__inner';
       try{
         var els=[].slice.call(document.querySelectorAll(SEL));
         var reduce=window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;

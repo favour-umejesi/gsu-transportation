@@ -16,11 +16,13 @@
   <!-- ============ HEADER ============ -->
   <header class="header">
     <div class="container header__inner">
-      <a class="brand" href="index.html">
-        <img class="brand__logo" src="images/grambling-logo.png" alt="Grambling State University" />
+      <div class="brand">
+        <a class="brand__logo-link" href="https://www.gram.edu" target="_blank" rel="noopener" aria-label="Grambling State University home">
+          <img class="brand__logo" src="images/grambling-logo.png" alt="Grambling State University" />
+        </a>
         <span class="brand__divider"></span>
-        <span class="brand__name">TIGER TRANSIT</span>
-      </a>
+        <a class="brand__name" href="index.html">TIGER TRANSIT</a>
+      </div>
       <nav class="nav" aria-label="Primary">
         <a href="index.html">Tiger Transit</a>
         <a href="index.html#shuttle">Shuttle Schedule</a>
@@ -54,7 +56,7 @@
   </section>
 
   <!-- ============ MISSION & VISION ============ -->
-  <section class="section section--white wwa-mv">
+  <section class="section section--white wwa-mv" id="mission">
     <div class="wwa-mv__col">
       <h2 class="wwa-h2">Our Mission</h2>
       <span class="wwa-rule" aria-hidden="true"></span>
@@ -68,7 +70,7 @@
   </section>
 
   <!-- ============ CORE VALUES ============ -->
-  <section class="section section--cream wwa-values">
+  <section class="section section--cream wwa-values" id="values">
     <header class="wwa-section-head">
       <p class="eyebrow">What We Stand For</p>
       <h2 class="wwa-h2">Core Values</h2>
@@ -103,7 +105,7 @@
   </section>
 
   <!-- ============ GOALS & OBJECTIVES ============ -->
-  <section class="section section--white wwa-goals">
+  <section class="section section--white wwa-goals" id="goals">
     <header class="wwa-section-head">
       <p class="eyebrow">Where We're Headed</p>
       <h2 class="wwa-h2">Goals &amp; Objectives</h2>
@@ -192,7 +194,7 @@
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>
     (function(){
-      var SEL='.hero__left,.hero__image,.section__head,.wwa-section-head,.split__col,.schedule-note,.dest,.airport-card,.insta-band,.service-card,.team-card,.wwa-header__text,.wwa-header__media,.wwa-mv__col,.wwa-value,.wwa-goal,.wwa-cta__inner';
+      var SEL='.hero__left,.hero__image,.section__head,.wwa-section-head,.split__col,.schedule-note,.dest,.sched,.insta-band,.service-card,.team-card,.wwa-header__text,.wwa-header__media,.wwa-mv__col,.wwa-value,.wwa-goal,.wwa-cta__inner';
       try{
         var els=[].slice.call(document.querySelectorAll(SEL));
         var reduce=window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
