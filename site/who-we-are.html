@@ -7,10 +7,11 @@
   <meta name="description" content="The mission, vision, core values, and goals of the Grambling State University Office of Student Transportation." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <script>document.documentElement.classList.add('js')</script>
 </head>
-<body>
+<body class="who">
 
   <!-- ============ HEADER ============ -->
   <header class="header">
@@ -35,120 +36,109 @@
     </div>
   </header>
 
-  <!-- ============ BANNER ============ -->
-  <section class="section section--dark banner" id="top">
-    <nav class="crumb" aria-label="Breadcrumb">
-      <a href="index.html">Tiger Transit</a> / <span>Who We Are</span>
-    </nav>
-    <p class="eyebrow eyebrow--gold">Office of Student Transportation</p>
-    <h1 class="banner__title">Who We Are</h1>
-    <p class="banner__lead">We keep the Grambling State community moving safely, reliably, and for every student. Here is what drives the Office of Student Transportation.</p>
-  </section>
-
-  <!-- ============ MISSION ============ -->
-  <section class="section section--cream">
-    <div class="feature feature--mission">
-      <div class="feature__aside">
-        <span class="feature__quote">&ldquo;</span>
-        <p class="eyebrow">Our Mission</p>
-        <span class="feature__rule"></span>
+  <!-- ============ PAGE HEADER ============ -->
+  <section class="section section--dark wwa-head-sec" id="top">
+    <div class="wwa-header">
+      <div class="wwa-header__text">
+        <nav class="crumb" aria-label="Breadcrumb">
+          <a href="index.html">Tiger Transit</a> <span class="crumb__sep">/</span> <span>Who We Are</span>
+        </nav>
+        <p class="eyebrow eyebrow--gold">Office of Student Transportation</p>
+        <h1 class="wwa-title">Who We Are</h1>
+        <p class="wwa-header__lead">The Office of Student Transportation keeps the Grambling State University community moving safely and reliably. We provide free, dependable transportation built around the needs of our students.</p>
       </div>
-      <p class="feature__statement">The Office of Student Transportation at Grambling State University is committed to supporting the wellbeing and success of every student by providing safe, reliable, and accessible transportation. We serve as a vital resource for students without personal vehicles, ensuring access to essential destinations, fostering equity, and enhancing the overall student experience through clear communication and responsive service.</p>
+      <figure class="wwa-header__media">
+        <img src="images/who-we-are-students.jpg" alt="Grambling State University students with Tiger Transit staff on campus" />
+      </figure>
     </div>
   </section>
 
-  <!-- ============ VISION ============ -->
-  <section class="section section--dark">
-    <div class="feature feature--vision">
-      <div class="feature__aside">
-        <span class="feature__quote">&ldquo;</span>
-        <p class="eyebrow eyebrow--gold">Our Vision</p>
-        <span class="feature__rule"></span>
-      </div>
-      <p class="feature__statement feature__statement--light">To be recognized as a model of dependable, student centered transportation services that empower students to thrive academically, personally, and socially, while strengthening connections between campus and community.</p>
+  <!-- ============ MISSION & VISION ============ -->
+  <section class="section section--white wwa-mv">
+    <div class="wwa-mv__col">
+      <h2 class="wwa-h2">Our Mission</h2>
+      <span class="wwa-rule" aria-hidden="true"></span>
+      <p class="wwa-prose">The Office of Student Transportation is committed to supporting the wellbeing and success of every student by providing safe, reliable, and accessible transportation. We serve as a vital resource for students without personal vehicles, ensuring access to essential destinations, fostering equity, and enhancing the student experience through clear communication and responsive service.</p>
+    </div>
+    <div class="wwa-mv__col">
+      <h2 class="wwa-h2">Our Vision</h2>
+      <span class="wwa-rule" aria-hidden="true"></span>
+      <p class="wwa-prose">To be recognized as a model of dependable, student centered transportation that empowers students to thrive academically, personally, and socially, while strengthening the connections between campus and community.</p>
     </div>
   </section>
 
   <!-- ============ CORE VALUES ============ -->
-  <section class="section section--white">
-    <div class="values-head">
-      <div>
-        <p class="eyebrow">What We Stand For</p>
-        <h2 class="h2">Core Values</h2>
+  <section class="section section--cream wwa-values">
+    <header class="wwa-section-head">
+      <p class="eyebrow">What We Stand For</p>
+      <h2 class="wwa-h2">Core Values</h2>
+      <p class="wwa-section-head__sub">The commitments that guide every route we run and every rider we serve.</p>
+    </header>
+    <div class="wwa-values__grid">
+      <div class="wwa-value">
+        <h3 class="wwa-value__name">Safety</h3>
+        <p class="wwa-value__desc">Prioritizing the protection and wellbeing of every passenger, on every trip.</p>
       </div>
-      <span class="values-count">06</span>
-    </div>
-    <div class="values-grid">
-      <div class="value">
-        <span class="value__num">01</span>
-        <div><p class="value__name">Safety</p><p class="value__desc">Prioritizing the protection and wellbeing of every passenger.</p></div>
+      <div class="wwa-value">
+        <h3 class="wwa-value__name">Accessibility</h3>
+        <p class="wwa-value__desc">Keeping transportation available and equitable for every student, without barriers.</p>
       </div>
-      <div class="value">
-        <span class="value__num">02</span>
-        <div><p class="value__name">Accessibility</p><p class="value__desc">Ensuring transportation is available and equitable for all students.</p></div>
+      <div class="wwa-value">
+        <h3 class="wwa-value__name">Reliability</h3>
+        <p class="wwa-value__desc">Delivering consistent, dependable service that students can plan their day around.</p>
       </div>
-      <div class="value">
-        <span class="value__num">03</span>
-        <div><p class="value__name">Reliability</p><p class="value__desc">Delivering consistent and dependable services students can trust.</p></div>
+      <div class="wwa-value">
+        <h3 class="wwa-value__name">Communication</h3>
+        <p class="wwa-value__desc">Sharing clear, timely, and transparent information about routes and service.</p>
       </div>
-      <div class="value">
-        <span class="value__num">04</span>
-        <div><p class="value__name">Communication</p><p class="value__desc">Providing clear, timely, and transparent information.</p></div>
+      <div class="wwa-value">
+        <h3 class="wwa-value__name">Student Success</h3>
+        <p class="wwa-value__desc">Supporting academic and personal growth that reaches well beyond the classroom.</p>
       </div>
-      <div class="value">
-        <span class="value__num">05</span>
-        <div><p class="value__name">Student Success</p><p class="value__desc">Supporting academic and personal growth beyond the classroom.</p></div>
-      </div>
-      <div class="value">
-        <span class="value__num">06</span>
-        <div><p class="value__name">Community Connection</p><p class="value__desc">Linking students to resources on and off campus.</p></div>
+      <div class="wwa-value">
+        <h3 class="wwa-value__name">Community Connection</h3>
+        <p class="wwa-value__desc">Linking students to the people, resources, and places that matter on and off campus.</p>
       </div>
     </div>
   </section>
 
   <!-- ============ GOALS & OBJECTIVES ============ -->
-  <section class="section section--cream">
-    <header class="section__head">
+  <section class="section section--white wwa-goals">
+    <header class="wwa-section-head">
       <p class="eyebrow">Where We're Headed</p>
-      <h2 class="h2">Goals &amp; Objectives</h2>
+      <h2 class="wwa-h2">Goals &amp; Objectives</h2>
+      <p class="wwa-section-head__sub">The priorities guiding the road ahead.</p>
     </header>
-    <div class="goals">
-      <div class="goal">
-        <span class="goal__num">01</span>
-        <div>
-          <p class="goal__title">Enhance Student Wellbeing</p>
-          <p class="goal__desc">Provide transportation to essential services such as healthcare, grocery stores, and other vital resources.</p>
-        </div>
+    <dl class="wwa-goals__list">
+      <div class="wwa-goal">
+        <dt class="wwa-goal__title">Enhance Student Wellbeing</dt>
+        <dd class="wwa-goal__desc">Provide transportation to essential services such as healthcare, grocery stores, and other vital resources.</dd>
       </div>
-      <div class="goal">
-        <span class="goal__num">02</span>
-        <div>
-          <p class="goal__title">Maintain Operational Excellence</p>
-          <p class="goal__desc">Uphold safety standards, punctuality, and ongoing staff training.</p>
-        </div>
+      <div class="wwa-goal">
+        <dt class="wwa-goal__title">Maintain Operational Excellence</dt>
+        <dd class="wwa-goal__desc">Uphold safety standards, punctuality, and ongoing staff training across the fleet.</dd>
       </div>
-      <div class="goal">
-        <span class="goal__num">03</span>
-        <div>
-          <p class="goal__title">Promote Communication &amp; Transparency</p>
-          <p class="goal__desc">Ensure students are informed about routes, schedules, and service updates.</p>
-        </div>
+      <div class="wwa-goal">
+        <dt class="wwa-goal__title">Promote Communication &amp; Transparency</dt>
+        <dd class="wwa-goal__desc">Keep students informed about routes, schedules, and service updates in real time.</dd>
       </div>
-      <div class="goal">
-        <span class="goal__num">04</span>
-        <div>
-          <p class="goal__title">Foster Equity &amp; Inclusion</p>
-          <p class="goal__desc">Serve as a resource for students without personal vehicles.</p>
-        </div>
+      <div class="wwa-goal">
+        <dt class="wwa-goal__title">Foster Equity &amp; Inclusion</dt>
+        <dd class="wwa-goal__desc">Serve as a dependable resource for students without access to a personal vehicle.</dd>
       </div>
-    </div>
+    </dl>
   </section>
 
-  <!-- ============ CLOSER ============ -->
-  <section class="section section--white">
-    <div class="closer">
-      <span class="closer__text">The people behind every route.</span>
-      <a class="btn btn--dark" href="index.html#team">Meet the team behind Tiger Transit</a>
+  <!-- ============ CLOSING ============ -->
+  <section class="section section--dark wwa-cta">
+    <div class="wwa-cta__inner">
+      <div>
+        <p class="eyebrow eyebrow--gold">Meet the People Behind the Wheel</p>
+        <h2 class="wwa-cta__title">The team that keeps Grambling moving.</h2>
+      </div>
+      <a class="btn btn--gold" href="index.html#team">Meet the Tiger Transit team
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
     </div>
   </section>
 
@@ -165,8 +155,8 @@
         <h4>Services</h4>
         <ul>
           <li><a href="index.html#shuttle">Daily Services</a></li>
-          <li><a href="index.html#airport">Airport &amp; Break Travel</a></li>
           <li><a href="index.html#destinations">Destinations</a></li>
+          <li><a href="index.html#airport">Airport &amp; Break Travel</a></li>
           <li><a href="index.html#team">Meet the Team</a></li>
         </ul>
       </div>
@@ -175,7 +165,6 @@
         <ul>
           <li><a href="who-we-are.html">Who We Are</a></li>
           <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=v1n43rBNZEGywZ2gVqTvuHHFA_h9KaRJtakm6cWfeHNUQk9WUjhMWkRNNUVWNDVPUFA3SUNNOFVWRC4u" target="_blank" rel="noopener">Request a Ride</a></li>
-          <li><a href="https://www.gram.edu/student-life/services/transportation/docs/Transportation%20Request%20Form.pdf" target="_blank" rel="noopener">Special Requests</a></li>
           <li><a href="https://www.gram.edu/student-life/services/transportation/docs/Transportation%20Request%20Form.pdf" target="_blank" rel="noopener">Van Request Form</a></li>
         </ul>
       </div>
@@ -202,17 +191,35 @@
 
   <script src="https://unpkg.com/lucide@latest"></script>
   <script>
-    lucide.createIcons();
-    const toggle = document.querySelector('.nav-toggle');
-    const nav = document.querySelector('.nav');
-    toggle.addEventListener('click', () => {
-      const open = nav.classList.toggle('nav--open');
-      toggle.setAttribute('aria-expanded', open);
-    });
-    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-      nav.classList.remove('nav--open');
-      toggle.setAttribute('aria-expanded', false);
-    }));
+    (function(){
+      var SEL='.hero__left,.hero__image,.section__head,.wwa-section-head,.split__col,.schedule-note,.dest,.airport-card,.insta-band,.service-card,.team-card,.wwa-header__text,.wwa-header__media,.wwa-mv__col,.wwa-value,.wwa-goal,.wwa-cta__inner';
+      try{
+        var els=[].slice.call(document.querySelectorAll(SEL));
+        var reduce=window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if('IntersectionObserver' in window && !reduce){
+          els.forEach(function(el){
+            var sibs=el.parentElement?[].slice.call(el.parentElement.children):[el];
+            var i=sibs.indexOf(el); if(i<0)i=0;
+            el.style.transitionDelay=(Math.min(i,6)*70)+'ms';
+          });
+          var io=new IntersectionObserver(function(entries){
+            entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('is-visible'); io.unobserve(e.target); } });
+          },{threshold:0.12, rootMargin:'0px 0px -7% 0px'});
+          els.forEach(function(el){ io.observe(el); });
+          setTimeout(function(){ els.forEach(function(el){ el.classList.add('is-visible'); }); }, 2600);
+        } else {
+          els.forEach(function(el){ el.classList.add('is-visible'); });
+        }
+      }catch(err){ document.documentElement.classList.remove('js'); }
+
+      try{ if(window.lucide) lucide.createIcons(); }catch(e){}
+
+      var toggle=document.querySelector('.nav-toggle'), nav=document.querySelector('.nav');
+      if(toggle&&nav){
+        toggle.addEventListener('click', function(){ var open=nav.classList.toggle('nav--open'); toggle.setAttribute('aria-expanded', open); });
+        nav.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', function(){ nav.classList.remove('nav--open'); toggle.setAttribute('aria-expanded', false); }); });
+      }
+    })();
   </script>
 </body>
 </html>

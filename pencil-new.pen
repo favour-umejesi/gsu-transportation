@@ -1,0 +1,2978 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "e2oYDw",
+      "x": 920,
+      "y": 0,
+      "name": "Tiger Transit Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "$cream",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "cdEDa",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "$black",
+          "padding": [
+            16,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "z99gZ",
+              "name": "Brand",
+              "gap": 14,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "L0hqGk",
+                  "name": "Grambling Logo",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../.pencil/documents/57e17ba1-481f-42a8-bbf2-79f6645a3843/grambling-logo.png",
+                    "mode": "fit"
+                  },
+                  "width": 152,
+                  "height": 38
+                },
+                {
+                  "type": "rectangle",
+                  "id": "ELRms",
+                  "name": "Divider",
+                  "fill": "#FFFFFF33",
+                  "width": 1,
+                  "height": 28
+                },
+                {
+                  "type": "frame",
+                  "id": "NM83v",
+                  "name": "Wordmark",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WC999",
+                      "name": "Title",
+                      "fill": "$white",
+                      "content": "TIGER TRANSIT",
+                      "fontFamily": "$font-display",
+                      "fontSize": 19,
+                      "fontWeight": "500",
+                      "letterSpacing": 2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xcaXZ",
+              "name": "Nav",
+              "gap": 30,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CXFft",
+                  "name": "Tiger Transit",
+                  "fill": "$white",
+                  "content": "Tiger Transit",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "MB8fA",
+                  "name": "Shuttle Schedule",
+                  "fill": "$white",
+                  "content": "Shuttle Schedule",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "mFBYY",
+                  "name": "Destinations",
+                  "fill": "$white",
+                  "content": "Destinations",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "K4VVN",
+                  "name": "Who We Are",
+                  "fill": "$white",
+                  "content": "Who We Are",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "UI5Hq",
+                  "name": "Contact",
+                  "fill": "$white",
+                  "content": "Contact",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BlUnW",
+              "name": "CTA",
+              "fill": "$gold",
+              "padding": [
+                11,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "My4iV",
+                  "name": "Label",
+                  "fill": "$black",
+                  "content": "Request a Ride",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "P8VcD9",
+          "name": "Hero",
+          "clip": true,
+          "width": "fill_container",
+          "height": 620,
+          "fill": "$black",
+          "children": [
+            {
+              "type": "frame",
+              "id": "DpUHV",
+              "name": "Hero Left",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 26,
+              "padding": [
+                88,
+                64
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Q1F91g",
+                  "name": "Eyebrow",
+                  "fill": "$gold",
+                  "content": "OFFICE OF STUDENT TRANSPORTATION",
+                  "fontFamily": "$font-display",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "PQiGe",
+                  "name": "Headline",
+                  "fill": "$white",
+                  "content": "Tiger Transit",
+                  "lineHeight": 0.95,
+                  "fontFamily": "$font-display",
+                  "fontSize": 82,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 3,
+                  "id": "u6zJ4",
+                  "name": "Gold Rule",
+                  "fill": "$gold",
+                  "width": 72,
+                  "height": 5
+                },
+                {
+                  "type": "text",
+                  "id": "V87pD",
+                  "name": "Intro",
+                  "fill": "$gray-light",
+                  "textGrowth": "fixed-width",
+                  "width": 520,
+                  "content": "The free shuttle service of the Grambling State University Office of Transportation, for the exclusive use of the GSU community. Be ready to show a valid GSU student ID when boarding.",
+                  "lineHeight": 1.55,
+                  "fontFamily": "$font-body",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "E0Z7k",
+                  "name": "Chips",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WeZMt",
+                      "name": "Free to ride",
+                      "stroke": "$gold",
+                      "strokeWidth": 1,
+                      "padding": [
+                        8,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JJCrJ",
+                          "name": "t",
+                          "fill": "$gold",
+                          "content": "Free to ride",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "T6LDgh",
+                      "name": "GSU ID required",
+                      "stroke": "$gold",
+                      "strokeWidth": 1,
+                      "padding": [
+                        8,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dYLI9",
+                          "name": "t",
+                          "fill": "$gold",
+                          "content": "GSU ID required",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gGNZ6",
+                      "name": "Tue · Wed · Thu",
+                      "stroke": "$gold",
+                      "strokeWidth": 1,
+                      "padding": [
+                        8,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YC92b",
+                          "name": "t",
+                          "fill": "$gold",
+                          "content": "Tue · Wed · Thu",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "t1XNnG",
+                  "name": "Hero Buttons",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lpJZb",
+                      "name": "Primary",
+                      "fill": "$gold",
+                      "padding": [
+                        14,
+                        26
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YC3U8",
+                          "name": "t",
+                          "fill": "$black",
+                          "content": "Request a Ride",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lrbyA",
+                      "name": "Secondary",
+                      "stroke": "$white",
+                      "strokeWidth": 1.5,
+                      "padding": [
+                        14,
+                        26
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "K7NydC",
+                          "name": "t",
+                          "fill": "$white",
+                          "content": "View Shuttle Schedule",
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DgAuE",
+              "name": "Hero Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "zihao_wang",
+                "link": "https://unsplash.com/@zihao_wang",
+                "author": "Zihao Wang"
+              },
+              "clip": true,
+              "width": 600,
+              "height": "fill_container",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1670111482157-c5ecbba142a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODI2OTYyNjl8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "layout": "vertical",
+              "justifyContent": "end",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "M9ZVvE",
+                  "name": "Gold Accent Bar",
+                  "fill": "$gold",
+                  "width": "fill_container",
+                  "height": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "o3iTf",
+          "name": "Weekly Shuttle Section",
+          "width": "fill_container",
+          "fill": "$cream",
+          "gap": 56,
+          "padding": [
+            88,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "oSUlj",
+              "name": "Intro Col",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NMT3U",
+                  "name": "Label",
+                  "fill": "$gold-deep",
+                  "content": "STUDENT SHUTTLE",
+                  "fontFamily": "$font-display",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "Ob6Kw",
+                  "name": "Heading",
+                  "fill": "$black",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Free rides, three days a week",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-display",
+                  "fontSize": 46,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "eQ0Jb",
+                  "name": "Body",
+                  "fill": "$gray",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "Free shuttle service for the Grambling State community, running Tuesday, Wednesday and Thursday to Walmart, local banks, the Ruston DMV and Ruston Marketplace — plus airport pickups and transportation for campus departments and organizations.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-body",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "sx3Kj",
+                  "name": "Note",
+                  "fill": "$white",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "gap": 12,
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "IdGTN",
+                      "name": "icon",
+                      "width": 22,
+                      "height": 22,
+                      "icon": "badge-check",
+                      "library": "lucide",
+                      "fill": "$gold-deep"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ed7mo",
+                      "name": "t",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": 380,
+                      "content": "Be prepared to show the operator a valid GSU student ID when boarding.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vppRD",
+              "name": "Schedule Placeholder",
+              "width": 480,
+              "height": 236,
+              "fill": "$black",
+              "stroke": "#FFFFFF1F",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 40,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "KrC1s",
+                  "name": "i",
+                  "width": 42,
+                  "height": 42,
+                  "icon": "calendar-clock",
+                  "library": "lucide",
+                  "fill": "$gold"
+                },
+                {
+                  "type": "text",
+                  "id": "u4ZD1",
+                  "name": "t1",
+                  "fill": "$white",
+                  "content": "Schedule coming soon",
+                  "fontFamily": "$font-display",
+                  "fontSize": 24,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "sZOip",
+                  "name": "t2",
+                  "fill": "$gray-light",
+                  "textGrowth": "fixed-width",
+                  "width": 340,
+                  "content": "Departure times will be posted here once the dates are confirmed.",
+                  "lineHeight": 1.5,
+                  "textAlign": "center",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BBl6d",
+          "name": "Airport Section",
+          "width": "fill_container",
+          "fill": "$black",
+          "layout": "vertical",
+          "gap": 44,
+          "padding": [
+            88,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "gxt8B",
+              "name": "Sec Head",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Q70UK",
+                  "name": "Label",
+                  "fill": "$gold",
+                  "content": "AIRPORT PICKUP",
+                  "fontFamily": "$font-display",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "letterSpacing": 3
+                },
+                {
+                  "type": "text",
+                  "id": "TVKXp",
+                  "name": "Heading",
+                  "fill": "$white",
+                  "content": "Getting to campus",
+                  "lineHeight": 1.05,
+                  "fontFamily": "$font-display",
+                  "fontSize": 46,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "BSPVD",
+                  "name": "Body",
+                  "fill": "$gray-light",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "The Office of Student Transportation provides airport pickup for students traveling to Grambling. When you reserve, select your arrival airport — Monroe Regional Airport (MLU) or Shreveport Regional Airport (SHV).",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-body",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "g9nsz",
+              "name": "Airport Cards",
+              "width": "fill_container",
+              "gap": 28,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "QEJbj",
+                  "name": "Fall 2026",
+                  "width": "fill_container",
+                  "fill": "$ink",
+                  "stroke": "#FFFFFF14",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 22,
+                  "padding": 34,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "P1ieix",
+                      "name": "top",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "C0oDsy",
+                          "name": "title",
+                          "fill": "$white",
+                          "content": "Fall 2026",
+                          "fontFamily": "$font-display",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qeMFw",
+                          "name": "tag",
+                          "fill": "$gold",
+                          "padding": [
+                            6,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "nZVeH",
+                              "name": "t",
+                              "fill": "$black",
+                              "content": "RESERVE",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "700",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "f8rHR",
+                      "name": "desc",
+                      "fill": "$gray-light",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Arrival pickups for the start of the Fall 2026 semester.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VQcz2",
+                      "name": "airports",
+                      "clip": true,
+                      "width": "fill_container",
+                      "stroke": "#FFFFFF14",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 1,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "S7UXI",
+                          "name": "MLU",
+                          "width": "fill_container",
+                          "fill": "$black",
+                          "padding": [
+                            16,
+                            18
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "DnYFL",
+                              "name": "l",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "kjpTE",
+                                  "name": "n",
+                                  "fill": "$white",
+                                  "content": "Monroe Regional Airport  (MLU)",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 15,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "oODNl",
+                                  "name": "s",
+                                  "fill": "$gray",
+                                  "content": "Pickup times TBA",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "icon",
+                              "id": "y0U5Cb",
+                              "name": "i",
+                              "width": 22,
+                              "height": 22,
+                              "icon": "plane-landing",
+                              "library": "lucide",
+                              "fill": "$gold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WUTt7",
+                          "name": "SHV",
+                          "width": "fill_container",
+                          "fill": "$black",
+                          "padding": [
+                            16,
+                            18
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "CX8iU",
+                              "name": "l",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "eoZxw",
+                                  "name": "n",
+                                  "fill": "$white",
+                                  "content": "Shreveport Regional Airport  (SHV)",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 15,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "z514P",
+                                  "name": "s",
+                                  "fill": "$gray",
+                                  "content": "Pickup times TBA",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "icon",
+                              "id": "oLetr",
+                              "name": "i",
+                              "width": 22,
+                              "height": 22,
+                              "icon": "plane-landing",
+                              "library": "lucide",
+                              "fill": "$gold"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "FhPI0",
+                      "name": "note",
+                      "fill": "$gray",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Choose your arrival airport — MLU or SHV — on the Fall 2026 pickup form.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jcEgi",
+                  "name": "Winter 2026",
+                  "width": "fill_container",
+                  "fill": "$ink",
+                  "stroke": "#FFFFFF14",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 22,
+                  "padding": 34,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "TWhMR",
+                      "name": "top",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "f3ZB4",
+                          "name": "title",
+                          "fill": "$white",
+                          "content": "Winter 2026",
+                          "fontFamily": "$font-display",
+                          "fontSize": 30,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KhvTr",
+                          "name": "tag",
+                          "fill": "$gold",
+                          "padding": [
+                            6,
+                            12
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "B1P5rl",
+                              "name": "t",
+                              "fill": "$black",
+                              "content": "RESERVE",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "700",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "D2yTj",
+                      "name": "desc",
+                      "fill": "$gray-light",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Pickups for Winter 2026 break travel and return to campus.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J0Ubk",
+                      "name": "airports",
+                      "clip": true,
+                      "width": "fill_container",
+                      "stroke": "#FFFFFF14",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 1,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MkIHG",
+                          "name": "MLU",
+                          "width": "fill_container",
+                          "fill": "$black",
+                          "padding": [
+                            16,
+                            18
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "q1iewZ",
+                              "name": "l",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "VtjRN",
+                                  "name": "n",
+                                  "fill": "$white",
+                                  "content": "Monroe Regional Airport  (MLU)",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 15,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "YGmEt",
+                                  "name": "s",
+                                  "fill": "$gray",
+                                  "content": "Pickup times TBA",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "icon",
+                              "id": "P82h6",
+                              "name": "i",
+                              "width": 22,
+                              "height": 22,
+                              "icon": "plane-landing",
+                              "library": "lucide",
+                              "fill": "$gold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KcBh1",
+                          "name": "SHV",
+                          "width": "fill_container",
+                          "fill": "$black",
+                          "padding": [
+                            16,
+                            18
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "pIzSw",
+                              "name": "l",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "JfRpY",
+                                  "name": "n",
+                                  "fill": "$white",
+                                  "content": "Shreveport Regional Airport  (SHV)",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 15,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "LuypY",
+                                  "name": "s",
+                                  "fill": "$gray",
+                                  "content": "Pickup times TBA",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "icon",
+                              "id": "K8Eccz",
+                              "name": "i",
+                              "width": 22,
+                              "height": 22,
+                              "icon": "plane-landing",
+                              "library": "lucide",
+                              "fill": "$gold"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "S5wkXA",
+                      "name": "note",
+                      "fill": "$gray",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Choose your arrival airport — MLU or SHV — on the Winter 2026 pickup form.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "fontStyle": "italic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "jRZ70",
+          "name": "Destinations Section",
+          "width": "fill_container",
+          "fill": "$cream",
+          "layout": "vertical",
+          "gap": 44,
+          "padding": [
+            88,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "yP0xz",
+              "name": "Sec Head",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Z0Nv6",
+                  "name": "hl",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nxsbF",
+                      "name": "Label",
+                      "fill": "$gold-deep",
+                      "content": "WHERE WE GO",
+                      "fontFamily": "$font-display",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "lVQLh",
+                      "name": "Heading",
+                      "fill": "$black",
+                      "content": "Destinations on every route",
+                      "lineHeight": 1.05,
+                      "fontFamily": "$font-display",
+                      "fontSize": 46,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "IkivK",
+                  "name": "avail",
+                  "fill": "$gray",
+                  "content": "Every Tue · Wed · Thu",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Z4S0So",
+              "name": "Dest Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rjYMQ",
+                  "name": "Wal-Mart",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Bv479",
+                      "name": "thumb",
+                      "width": "fill_container",
+                      "height": 120,
+                      "fill": "$black",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ZLf9W",
+                          "name": "i",
+                          "width": 40,
+                          "height": 40,
+                          "icon": "shopping-cart",
+                          "library": "lucide",
+                          "fill": "$gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YdaB7",
+                      "name": "body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SJHJo",
+                          "name": "title",
+                          "fill": "$black",
+                          "content": "Walmart",
+                          "fontFamily": "$font-display",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "y7Fytr",
+                          "name": "desc",
+                          "fill": "$gray",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Groceries, essentials & everyday errands",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZItNg",
+                          "name": "days",
+                          "gap": 8,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "JmwBy",
+                              "name": "ci",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "calendar",
+                              "library": "lucide",
+                              "fill": "$gold-deep"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lnBHv",
+                              "name": "dt",
+                              "fill": "$gold-deep",
+                              "content": "Tuesday, Wednesday & Thursday",
+                              "fontFamily": "$font-body",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "I88bf",
+                  "name": "Local Banks",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "o0HMO",
+                      "name": "thumb",
+                      "width": "fill_container",
+                      "height": 120,
+                      "fill": "$black",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "IeUYn",
+                          "name": "i",
+                          "width": 40,
+                          "height": 40,
+                          "icon": "landmark",
+                          "library": "lucide",
+                          "fill": "$gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ES2OV",
+                      "name": "body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "x7jUCL",
+                          "name": "title",
+                          "fill": "$black",
+                          "content": "Local Banks",
+                          "fontFamily": "$font-display",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "oBs2X",
+                          "name": "desc",
+                          "fill": "$gray",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Banking & financial errands",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZrGgF",
+                          "name": "days",
+                          "gap": 8,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "nVWOy",
+                              "name": "ci",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "calendar",
+                              "library": "lucide",
+                              "fill": "$gold-deep"
+                            },
+                            {
+                              "type": "text",
+                              "id": "WiBPs",
+                              "name": "dt",
+                              "fill": "$gold-deep",
+                              "content": "Tuesday, Wednesday & Thursday",
+                              "fontFamily": "$font-body",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "g7ckEH",
+                  "name": "DMV – Ruston",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YelWU",
+                      "name": "thumb",
+                      "width": "fill_container",
+                      "height": 120,
+                      "fill": "$black",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "YPp18",
+                          "name": "i",
+                          "width": 40,
+                          "height": 40,
+                          "icon": "car-front",
+                          "library": "lucide",
+                          "fill": "$gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CfWlf",
+                      "name": "body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wk9gF",
+                          "name": "title",
+                          "fill": "$black",
+                          "content": "DMV – Ruston",
+                          "fontFamily": "$font-display",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nQoFj",
+                          "name": "desc",
+                          "fill": "$gray",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Driver's license & vehicle services in Ruston",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sc8WR",
+                          "name": "days",
+                          "gap": 8,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "TRjsY",
+                              "name": "ci",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "calendar",
+                              "library": "lucide",
+                              "fill": "$gold-deep"
+                            },
+                            {
+                              "type": "text",
+                              "id": "G9LtU",
+                              "name": "dt",
+                              "fill": "$gold-deep",
+                              "content": "Tuesday, Wednesday & Thursday",
+                              "fontFamily": "$font-body",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zmZFD",
+                  "name": "Ruston Marketplace",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zo5zh",
+                      "name": "thumb",
+                      "width": "fill_container",
+                      "height": 120,
+                      "fill": "$black",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "o4dqxG",
+                          "name": "i",
+                          "width": 40,
+                          "height": 40,
+                          "icon": "shopping-bag",
+                          "library": "lucide",
+                          "fill": "$gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OqdC7",
+                      "name": "body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "t0GOdn",
+                          "name": "title",
+                          "fill": "$black",
+                          "content": "Ruston Marketplace",
+                          "fontFamily": "$font-display",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "x8CKs",
+                          "name": "desc",
+                          "fill": "$gray",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Ulta, 5 Below, T.J. Maxx, Hobby Lobby & more in Ruston",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gfkwb",
+                          "name": "days",
+                          "gap": 8,
+                          "padding": [
+                            8,
+                            0,
+                            0,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "nlcM5",
+                              "name": "ci",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "calendar",
+                              "library": "lucide",
+                              "fill": "$gold-deep"
+                            },
+                            {
+                              "type": "text",
+                              "id": "CNcD0",
+                              "name": "dt",
+                              "fill": "$gold-deep",
+                              "content": "Tuesday, Wednesday & Thursday",
+                              "fontFamily": "$font-body",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FnNPE",
+          "name": "Connect Section",
+          "width": "fill_container",
+          "fill": "$white",
+          "layout": "vertical",
+          "gap": 36,
+          "padding": [
+            88,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "T52g4",
+              "name": "Instagram Band",
+              "width": "fill_container",
+              "fill": "$gold",
+              "gap": 24,
+              "padding": [
+                28,
+                34
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "c28Sm",
+                  "name": "il",
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sQsLy",
+                      "name": "igmark",
+                      "width": 54,
+                      "height": 54,
+                      "fill": "$black",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "q4Ib2",
+                          "name": "i",
+                          "width": 28,
+                          "height": 28,
+                          "icon": "instagram",
+                          "library": "lucide",
+                          "fill": "$gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "H417so",
+                      "name": "it",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZOOYL",
+                          "name": "t1",
+                          "fill": "$black",
+                          "content": "Stay Connected",
+                          "fontFamily": "$font-display",
+                          "fontSize": 26,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "M9RfJF",
+                          "name": "t2",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": 560,
+                          "content": "Follow on Instagram for real-time updates, schedule changes, and service announcements.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "$font-body",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "b0VGE",
+                  "name": "handle",
+                  "fill": "$black",
+                  "gap": 8,
+                  "padding": [
+                    14,
+                    22
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eYtGP",
+                      "name": "t",
+                      "fill": "$white",
+                      "content": "@gsutigertransiit",
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Lnd9y",
+              "name": "Service Cards",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nfYui",
+                  "name": "Request a Ride",
+                  "width": "fill_container",
+                  "fill": "$cream",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 30,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KmY5L",
+                      "name": "ic",
+                      "width": 50,
+                      "height": 50,
+                      "fill": "$black",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "xTAJg",
+                          "name": "i",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "ticket",
+                          "library": "lucide",
+                          "fill": "$gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "WHzC8",
+                      "name": "title",
+                      "fill": "$black",
+                      "content": "Request a Ride",
+                      "fontFamily": "$font-display",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wco0g",
+                      "name": "desc",
+                      "fill": "$gray",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Reserve a seat, or request transportation for your department or student organization.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kIKt8",
+                      "name": "link",
+                      "gap": 8,
+                      "padding": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fu7XD",
+                          "name": "lt",
+                          "fill": "$gold-deep",
+                          "content": "Open request form",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "F6fDG",
+                          "name": "la",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$gold-deep"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "btDNn",
+                  "name": "Contact Us",
+                  "width": "fill_container",
+                  "fill": "$cream",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 30,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kWzs9",
+                      "name": "ic",
+                      "width": 50,
+                      "height": 50,
+                      "fill": "$black",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "PZ4BB",
+                          "name": "i",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "phone",
+                          "library": "lucide",
+                          "fill": "$gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "aMRDg",
+                      "name": "title",
+                      "fill": "$black",
+                      "content": "Contact Us",
+                      "fontFamily": "$font-display",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Fehwl",
+                      "name": "desc",
+                      "fill": "$gray",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Questions about routes, schedules, or pickups? We're happy to help.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "N3NGEh",
+                      "name": "link",
+                      "gap": 8,
+                      "padding": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NXZwF",
+                          "name": "lt",
+                          "fill": "$gold-deep",
+                          "content": "Get in touch",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "R74HN",
+                          "name": "la",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$gold-deep"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "RMalj",
+                  "name": "Lost & Found",
+                  "width": "fill_container",
+                  "fill": "$cream",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 30,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wXnkZ",
+                      "name": "ic",
+                      "width": 50,
+                      "height": 50,
+                      "fill": "$black",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "yLCnK",
+                          "name": "i",
+                          "width": 24,
+                          "height": 24,
+                          "icon": "file-text",
+                          "library": "lucide",
+                          "fill": "$gold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "YqX0x",
+                      "name": "title",
+                      "fill": "$black",
+                      "content": "Van Request Form",
+                      "fontFamily": "$font-display",
+                      "fontSize": 24,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "O11pK",
+                      "name": "desc",
+                      "fill": "$gray",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Departments and organizations can reserve a van for campus and event travel.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YBg2L",
+                      "name": "link",
+                      "gap": 8,
+                      "padding": [
+                        6,
+                        0,
+                        0,
+                        0
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Y0qjH",
+                          "name": "lt",
+                          "fill": "$gold-deep",
+                          "content": "Download form (PDF)",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "WKhFP",
+                          "name": "la",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "arrow-right",
+                          "library": "lucide",
+                          "fill": "$gold-deep"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "t2Y05D",
+          "name": "Team Section",
+          "width": "fill_container",
+          "fill": "$cream",
+          "layout": "vertical",
+          "gap": 44,
+          "padding": [
+            88,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "V1Y1vm",
+              "name": "Sec Head",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "YcwiL",
+                  "name": "hl",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yllxY",
+                      "name": "Label",
+                      "fill": "$gold-deep",
+                      "content": "MEET THE TEAM",
+                      "fontFamily": "$font-display",
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "letterSpacing": 3
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZY8ON",
+                      "name": "Heading",
+                      "fill": "$black",
+                      "content": "The people behind Tiger Transit",
+                      "lineHeight": 1.05,
+                      "fontFamily": "$font-display",
+                      "fontSize": 46,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ErujI",
+                  "name": "motto",
+                  "fill": "$gold-deep",
+                  "content": "“Delivering Safely… on time!”",
+                  "fontFamily": "$font-display",
+                  "fontSize": 18,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DM1yS",
+              "name": "Team Grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DAYe8",
+                  "name": "Mr. Thomyan Turner",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "D1Mply",
+                      "name": "photo",
+                      "width": "fill_container",
+                      "height": 300,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../.pencil/documents/57e17ba1-481f-42a8-bbf2-79f6645a3843/turner.jpg",
+                        "mode": "fill"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "mpjfS",
+                          "x": 178.66666666666666,
+                          "y": 105.5,
+                          "name": "i",
+                          "enabled": false,
+                          "width": 64,
+                          "height": 64,
+                          "icon": "user-round",
+                          "library": "lucide",
+                          "fill": "$gold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "u1r7iI",
+                          "x": 165.66666666666666,
+                          "y": 179.5,
+                          "name": "ph",
+                          "enabled": false,
+                          "fill": "$gray",
+                          "content": "ADD PHOTO",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OkOYW",
+                      "name": "body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 26,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "F1yIa0",
+                          "name": "nm",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Un6IN",
+                              "name": "name",
+                              "fill": "$black",
+                              "content": "Mr. Thomyan Turner",
+                              "fontFamily": "$font-display",
+                              "fontSize": 24,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "AQLau",
+                              "name": "role",
+                              "fill": "$gold-deep",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Coordinator of Student Transportation",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "L1Djg",
+                          "name": "contacts",
+                          "width": "fill_container",
+                          "stroke": "$line",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "layout": "vertical",
+                          "gap": 9,
+                          "padding": [
+                            14,
+                            0,
+                            0,
+                            0
+                          ],
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "hHmeU",
+                              "name": "phone",
+                              "gap": 9,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "AJl3W",
+                                  "name": "ci",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "phone",
+                                  "library": "lucide",
+                                  "fill": "$gold-deep"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ix1gb",
+                                  "name": "ct",
+                                  "fill": "$ink",
+                                  "content": "(318) 274-2079",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 14,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Vhrvs",
+                              "name": "mail",
+                              "gap": 9,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "S6XaSC",
+                                  "name": "ci",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "mail",
+                                  "library": "lucide",
+                                  "fill": "$gold-deep"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Y4k2nW",
+                                  "name": "ct",
+                                  "fill": "$ink",
+                                  "content": "turnerth@gram.edu",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 14,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "phvBC",
+                  "name": "Rene Davis",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "y0RXd",
+                      "name": "photo",
+                      "width": "fill_container",
+                      "height": 300,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../.pencil/documents/57e17ba1-481f-42a8-bbf2-79f6645a3843/davis.jpg",
+                        "mode": "fill"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "CJdaF",
+                          "x": 178.66666666666666,
+                          "y": 105.5,
+                          "name": "i",
+                          "enabled": false,
+                          "width": 64,
+                          "height": 64,
+                          "icon": "user-round",
+                          "library": "lucide",
+                          "fill": "$gold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SfPY2",
+                          "x": 165.66666666666666,
+                          "y": 179.5,
+                          "name": "ph",
+                          "enabled": false,
+                          "fill": "$gray",
+                          "content": "ADD PHOTO",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "U4HIR",
+                      "name": "body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 26,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "RY8kq",
+                          "name": "nm",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NiaFe",
+                              "name": "name",
+                              "fill": "$black",
+                              "content": "Mr. Rene Davis",
+                              "fontFamily": "$font-display",
+                              "fontSize": 24,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "E7l1yu",
+                              "name": "role",
+                              "fill": "$gold-deep",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Driver",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bGJty",
+                  "name": "Mr. Larry Moss",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$white",
+                  "stroke": "$line",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "djOps",
+                      "name": "photo",
+                      "width": "fill_container",
+                      "height": 300,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../.pencil/documents/57e17ba1-481f-42a8-bbf2-79f6645a3843/moss.jpg",
+                        "mode": "fill"
+                      },
+                      "layout": "vertical",
+                      "gap": 10,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "uOoWo",
+                          "x": 178.66666666666666,
+                          "y": 105.5,
+                          "name": "i",
+                          "enabled": false,
+                          "width": 64,
+                          "height": 64,
+                          "icon": "user-round",
+                          "library": "lucide",
+                          "fill": "$gold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "S4OjH",
+                          "x": 165.66666666666666,
+                          "y": 179.5,
+                          "name": "ph",
+                          "enabled": false,
+                          "fill": "$gray",
+                          "content": "ADD PHOTO",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "500",
+                          "letterSpacing": 2
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eXmxp",
+                      "name": "body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 14,
+                      "padding": 26,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "OfoMp",
+                          "name": "nm",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "M6ksV",
+                              "name": "name",
+                              "fill": "$black",
+                              "content": "Mr. Larry Moss",
+                              "fontFamily": "$font-display",
+                              "fontSize": 24,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "l07XU",
+                              "name": "role",
+                              "fill": "$gold-deep",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Driver",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-body",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oXBVg",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "$black",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            72,
+            64,
+            0,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "S30l7",
+              "name": "Footer Top",
+              "width": "fill_container",
+              "gap": 56,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x0pbJ",
+                  "name": "Brand Col",
+                  "width": 380,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "xO9ac",
+                      "name": "Grambling Oval Logo",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../.pencil/documents/57e17ba1-481f-42a8-bbf2-79f6645a3843/grambling-oval-g.png",
+                        "mode": "fit"
+                      },
+                      "width": 150,
+                      "height": 95
+                    },
+                    {
+                      "type": "text",
+                      "id": "x3Uny",
+                      "name": "office",
+                      "fill": "$gold",
+                      "content": "OFFICE OF STUDENT TRANSPORTATION",
+                      "fontFamily": "$font-display",
+                      "fontSize": 16,
+                      "fontWeight": "500",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "i6Q1b",
+                      "name": "addr",
+                      "fill": "$gray-light",
+                      "textGrowth": "fixed-width",
+                      "width": 300,
+                      "content": "Grambling State University\n403 Main Street, Grambling, LA 71245",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oayJd",
+                      "name": "ig",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "e2qQQr",
+                          "name": "i",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "instagram",
+                          "library": "lucide",
+                          "fill": "$gold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CFhAf",
+                          "name": "t",
+                          "fill": "$white",
+                          "content": "@gsutigertransiit",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iml2X",
+                  "name": "Services",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "TY0IU",
+                      "name": "h",
+                      "fill": "$white",
+                      "content": "SERVICES",
+                      "fontFamily": "$font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W8ExYR",
+                      "name": "list",
+                      "layout": "vertical",
+                      "gap": 11,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GZ9JJ",
+                          "name": "Daily Services",
+                          "fill": "$gray-light",
+                          "content": "Daily Services",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LEhbJ",
+                          "name": "Airport Pickup",
+                          "fill": "$gray-light",
+                          "content": "Airport Pickup",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "u4VGl5",
+                          "name": "Shuttle Schedule",
+                          "fill": "$gray-light",
+                          "content": "Shuttle Schedule",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "P82Ke",
+                          "name": "Route Schedule (PDF)",
+                          "fill": "$gray-light",
+                          "content": "Route Schedule (PDF)",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Mwk2S",
+                  "name": "Forms & Info",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RMpgh",
+                      "name": "h",
+                      "fill": "$white",
+                      "content": "FORMS & INFO",
+                      "fontFamily": "$font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bEOOj",
+                      "name": "list",
+                      "layout": "vertical",
+                      "gap": 11,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vapE0",
+                          "name": "Who We Are",
+                          "fill": "$gray-light",
+                          "content": "Who We Are",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bDRvT",
+                          "name": "Request a Ride",
+                          "fill": "$gray-light",
+                          "content": "Request a Ride",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "xRdOD",
+                          "name": "Van Request Form",
+                          "fill": "$gray-light",
+                          "content": "Van Request Form",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QtzLI",
+                  "name": "Contact Col",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dbRPS",
+                      "name": "h",
+                      "fill": "$white",
+                      "content": "CONTACT",
+                      "fontFamily": "$font-display",
+                      "fontSize": 15,
+                      "fontWeight": "600",
+                      "letterSpacing": 2
+                    },
+                    {
+                      "type": "frame",
+                      "id": "G9OqW",
+                      "name": "clist",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "edzF5",
+                          "name": "Coordinator",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "u2m1f",
+                              "name": "i",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "user",
+                              "library": "lucide",
+                              "fill": "$gold"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "xZrzq",
+                              "name": "tx",
+                              "layout": "vertical",
+                              "gap": 1,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "U9LAsi",
+                                  "name": "k",
+                                  "fill": "$gray",
+                                  "content": "COORDINATOR",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 11,
+                                  "fontWeight": "500",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "toi88",
+                                  "name": "v",
+                                  "fill": "$white",
+                                  "content": "Mr. Thomyan Turner",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "r4hfv",
+                          "name": "Office",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "pfLvt",
+                              "name": "i",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "phone",
+                              "library": "lucide",
+                              "fill": "$gold"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XU5vK",
+                              "name": "tx",
+                              "layout": "vertical",
+                              "gap": 1,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vRtqh",
+                                  "name": "k",
+                                  "fill": "$gray",
+                                  "content": "OFFICE",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 11,
+                                  "fontWeight": "500",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "bexi2",
+                                  "name": "v",
+                                  "fill": "$white",
+                                  "content": "(318) 274-2325",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uNAoZ",
+                          "name": "Direct",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "HqrGc",
+                              "name": "i",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "phone-call",
+                              "library": "lucide",
+                              "fill": "$gold"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "BW7P4",
+                              "name": "tx",
+                              "layout": "vertical",
+                              "gap": 1,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "E8ecL",
+                                  "name": "k",
+                                  "fill": "$gray",
+                                  "content": "DIRECT",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 11,
+                                  "fontWeight": "500",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "IBHvl",
+                                  "name": "v",
+                                  "fill": "$white",
+                                  "content": "(318) 274-2079",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "F3hWhL",
+                          "name": "Email",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "zVbpg",
+                              "name": "i",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "mail",
+                              "library": "lucide",
+                              "fill": "$gold"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Ytxpt",
+                              "name": "tx",
+                              "layout": "vertical",
+                              "gap": 1,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "DHzH0",
+                                  "name": "k",
+                                  "fill": "$gray",
+                                  "content": "EMAIL",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 11,
+                                  "fontWeight": "500",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "KhN9Z",
+                                  "name": "v",
+                                  "fill": "$white",
+                                  "content": "studenttransportation@gram.edu",
+                                  "fontFamily": "$font-body",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "pfByt",
+              "name": "Divider",
+              "fill": "#FFFFFF1F",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "X5vUnA",
+              "name": "Footer Bottom",
+              "width": "fill_container",
+              "padding": [
+                0,
+                0,
+                28,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RBl0w",
+                  "name": "copy",
+                  "fill": "$gray",
+                  "content": "© 2026 Grambling State University · Delivering Safely… on time!",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "ijJKx",
+                  "name": "bl",
+                  "gap": 24,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mlmFn",
+                      "name": "Live View",
+                      "fill": "$gray-light",
+                      "content": "Live View",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "A1eXO",
+                      "name": "Routes & Schedules",
+                      "fill": "$gray-light",
+                      "content": "Routes & Schedules",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Co0s2",
+                      "name": "Lost & Found",
+                      "fill": "$gray-light",
+                      "content": "Meet the Team",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "black": {
+      "type": "color",
+      "value": "#0B0B0B"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#161616"
+    },
+    "gold": {
+      "type": "color",
+      "value": "#EAA921"
+    },
+    "gold-deep": {
+      "type": "color",
+      "value": "#B8810F"
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "cream": {
+      "type": "color",
+      "value": "#F6F4EF"
+    },
+    "gray": {
+      "type": "color",
+      "value": "#5C5C5C"
+    },
+    "gray-light": {
+      "type": "color",
+      "value": "#D6D6D6"
+    },
+    "line": {
+      "type": "color",
+      "value": "#E4E1DA"
+    },
+    "font-display": {
+      "type": "string",
+      "value": "Oswald"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    }
+  },
+  "fileToken": "c16a7cf8-8f93-41f8-a94f-12c73050ae90"
+}
